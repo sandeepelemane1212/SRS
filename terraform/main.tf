@@ -1,5 +1,5 @@
 module "ec2_instance" {
-  source = ""
+  source = "https://github.com/sandeepelemane1/SRS/tree/master/terraform"
   instance_type = "${var.instance_type}"
   instance_name = "${var.instance_name}"
   ami_id = "${var.ami_id}"
