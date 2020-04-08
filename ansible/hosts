@@ -1,0 +1,8 @@
+[docker-swarm-managers]
+instance1
+
+[docker-swarm]
+instance2
+instance3
+instance4
+instance5
