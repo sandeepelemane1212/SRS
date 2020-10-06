@@ -41,7 +41,7 @@
         docker info | egrep '^Swarm: ' | cut -d ' ' -f2
       register: swarm_status
 
-    - name: create swarm_worker_operational group
+    - name: create swarm_worker_operational groupp
       add_host:
         hostname: "{{ item }}"
         groups: swarm_worker_operational
