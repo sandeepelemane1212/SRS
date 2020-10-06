@@ -1,3 +1,4 @@
+// instance creation
 module "ec2_instance" {
   source = "https://github.com/sandeepelemane1/SRS/tree/master/terraform"
   instance_type = "${var.instance_type}"
