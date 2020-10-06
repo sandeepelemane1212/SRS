@@ -1,5 +1,5 @@
 [docker-swarm-managers]
-instance1
+instance11
 
 [docker-swarm]
 instance2
