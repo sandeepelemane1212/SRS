@@ -1,3 +1,5 @@
+
+// instance details
 instance_type = "t2.micro"
   instance_name = "ubuntu"
   ami_id = "ami-0fc025e3171c5a1bf"
