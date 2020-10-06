@@ -1,6 +1,6 @@
 ---
 
-- name: Increase vm.max_map_count
+- name: Increase vm.max_map_countt
   shell: sysctl -w vm.max_map_count=262144
 
 - name: Add docker GPG key
