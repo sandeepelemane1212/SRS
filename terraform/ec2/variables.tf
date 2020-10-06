@@ -1,4 +1,4 @@
-// Module specific variables
+// Module specific variabless
 
 variable "instance_name" {
   description = "Used to populate the Name tag. This is done in main.tf"
